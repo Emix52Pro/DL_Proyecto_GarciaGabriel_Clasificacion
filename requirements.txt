@@ -1,0 +1,8 @@
+!pip install -q torch torchvision torchaudio
+!pip install -q timm  # Modelos preentrenados
+!pip install -q opencv-python-headless
+!pip install -q matplotlib seaborn plotly
+!pip install -q pandas numpy scikit-learn
+!pip install -q Pillow>=9.0.0
+!pip install -q albumentations
+!pip install -q tqdm
