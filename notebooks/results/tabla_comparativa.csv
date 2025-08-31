@@ -1,0 +1,4 @@
+Variante/Modelo,Resumen de cambios,Accuracy Train,Accuracy Test,F1_Macro Train,F1_Macro Test,Precision_Macro Train,Precision_Macro Test,Observaciones
+Modelo A (ResNet50),Arquitectura residual profunda con skip connections,0.9190,0.9222,0.8731,0.9228,0.8915,0.9237,Velocidad: 3065.6 imgs/seg
+Modelo B (MobileNetV3),Arquitectura optimizada para dispositivos móviles,0.9984,0.9444,0.9485,0.9443,0.9685,0.9473,Velocidad: 2248.6 imgs/seg
+Modelo C (EfficientNet-B0),"Compound scaling, balance eficiencia-precisión",0.9698,0.9222,0.9213,0.9217,0.9407,0.9295,Velocidad: 1803.2 imgs/seg

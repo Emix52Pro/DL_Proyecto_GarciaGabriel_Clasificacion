@@ -1,0 +1,72 @@
+{
+  "experiment_info": {
+    "timestamp": "2025-08-31T02:34:26.675067",
+    "task": "Clasificaci\u00f3n de enfermedades en banano",
+    "dataset_source": "Data-Tesis \u00fanicamente",
+    "total_images": 900,
+    "classes": [
+      "Cordana",
+      "Sanas",
+      "SigatokaNegra"
+    ],
+    "device": "cuda",
+    "seed": 42
+  },
+  "dataset_stats": {
+    "train": 630,
+    "val": 180,
+    "test": 90,
+    "class_distribution": {
+      "Cordana": 300,
+      "Sanas": 300,
+      "SigatokaNegra": 300
+    }
+  },
+  "models_config": {
+    "ResNet50": {
+      "description": "ResNet50 - Arquitectura residual profunda, muy estable",
+      "lr": 0.001,
+      "batch_size": 32
+    },
+    "MobileNetV3": {
+      "description": "MobileNetV3-Large - Optimizado para eficiencia y velocidad",
+      "lr": 0.001,
+      "batch_size": 32
+    },
+    "EfficientNet-B0": {
+      "description": "EfficientNet-B0 - Balance \u00f3ptimo entre precisi\u00f3n y eficiencia",
+      "lr": 0.001,
+      "batch_size": 32
+    }
+  },
+  "evaluation_results": {
+    "ResNet50": {
+      "Accuracy": 0.9222222222222223,
+      "Precision_Macro": 0.9236559139784947,
+      "Recall_Macro": 0.9222222222222222,
+      "F1_Macro": 0.9227655830323238,
+      "ROC_AUC_Macro": 0.9781481481481481,
+      "Velocidad_imgs_seg": 3065.5915216298936,
+      "Parametros": 23514179
+    },
+    "MobileNetV3": {
+      "Accuracy": 0.9444444444444444,
+      "Precision_Macro": 0.9472502805836139,
+      "Recall_Macro": 0.9444444444444445,
+      "F1_Macro": 0.9443052074631021,
+      "ROC_AUC_Macro": 0.9838888888888889,
+      "Velocidad_imgs_seg": 2248.5546819156543,
+      "Parametros": 4205875
+    },
+    "EfficientNet-B0": {
+      "Accuracy": 0.9222222222222223,
+      "Precision_Macro": 0.9295238095238095,
+      "Recall_Macro": 0.9222222222222222,
+      "F1_Macro": 0.9216783216783216,
+      "ROC_AUC_Macro": 0.9738888888888889,
+      "Velocidad_imgs_seg": 1803.2180638342656,
+      "Parametros": 4011391
+    }
+  },
+  "best_model": "MobileNetV3"
+}
