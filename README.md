@@ -2,8 +2,8 @@
 
 ## Información del Proyecto
 - **Autor**: Gabriel Emilio García Mazón
-- **Universidad**: UTMACH - Facultad de Ciencias Agropecuarias
-- **Fecha**: 2025-08-31 02:34:26
+- **Universidad**: UTMACH - Facultad de Ingenieria Civil
+- **Fecha**: 2025-08-30
 - **Ruta**: Clasificación con modelos preentrenados (Transfer Learning)
 
 ## Problema a Resolver
